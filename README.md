@@ -13,11 +13,11 @@ Graph Neural Network based Generative Modeling for COVID-19 protease inhibitor D
 
 1. 신약 후보 물질 데이터 확보 
 
-신약 후보 물질 구조 생성을 위해서는 인공지능을 훈련시키기 전에 코로나 바이러스 복제 효소를 억제하는 특성을 지닌 화학 물질 학습 데이터가 필요했습니다. 따라서, PDB (Protein Data Bank: 분자의 3D 구조를 제공하는 공공 데이터베이스)에서 바이러스의 증식을 촉진하는 효소를 검색하여 단백질 분해 효소 6LU7이 COVID-19의 증식을촉진시킨다는사실을 알아냈습니다. 이후 virtual screening 플랫폼인 Pharmit 에서 6LU7 효소와 결합 가능한 물질을 알아보았습니다. Pharmit에서 Docking 시뮬레이션을 가동한 결과, binding affinity가 특히 월등한 화학 물질 약 25000 개의 SMILES 데이터를 ZINC 화학 분자 데이터베이스에서 추출할 수 있었습니다.
+신약 후보 물질 구조 생성을 위해서는 인공지능을 훈련시키기 전에 코로나 바이러스 복제 효소를 억제하는 특성을 지닌 화학 물질 학습 데이터가 필요했습니다. 따라서, PDB (Protein Data Bank: 분자의 3D 구조를 제공하는 공공 데이터베이스)에서 바이러스의 증식을 촉진하는 효소를 검색하여 단백질 분해 효소 6LU7이 COVID-19의 증식을 촉진시킨다는사실을 알아냈습니다. 이후 virtual screening 플랫폼인 Pharmit 에서 6LU7 효소와 결합 가능한 물질을 알아보았습니다. Pharmit에서 Docking 시뮬레이션을 가동한 결과, binding affinity가 특히 월등한 화학 물질 약 25000 개의 SMILES 데이터를 ZINC 화학 분자 데이터베이스에서 추출할 수 있었습니다.
 
 2. 그래프 인공신경망을 활용한 모델 학습
 
-화학 구조를 보다 더 효과적으로 추상화하기 위해 SMILES 데이터를 그래프로 변환하여 (원자를 node, 화학 결합을 edge로 표현한 네트워크 데이터) 그레프 인공신경망의 일종이자 Generative 모델에 해당하는 DGMG (Deep Generative Models of Graphs) 모델에 학습시켜보았습니다. 또한, PDBBind 데이터셋을 ACNN (Atomic Convolutional Networks) 모델에 학습시켜 ligand 분자와 protein 분자가 주어지면 둘의 3D 구조를 고려하여 binding affinity를 예측하는 모델을 개발했습니다. 
+화학 구조를 보다 더 효과적으로 추상화하기 위해 SMILES 데이터를 그래프로 변환하여 (원자를 node, 화학 결합을 edge로 표현한 네트워크 데이터) 그래프 인공신경망의 일종이자 Generative 모델에 해당하는 DGMG (Deep Generative Models of Graphs) 모델에 학습시켜보았습니다. 또한, PDBBind 데이터셋을 ACNN (Atomic Convolutional Networks) 모델에 학습시켜 ligand 분자와 protein 분자가 주어지면 둘의 3D 구조를 고려하여 binding affinity를 예측하는 모델을 개발했습니다. 
 
 3. 모바일 어플리케이션 개발
 
