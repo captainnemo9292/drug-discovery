@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "drug-discovery",
+    "description": "No description",
+    "slug": "drug-discovery",
+    "privacy": "unlisted",
+    "sdkVersion": "37.0.0",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "loading": {
+      "icon": "./assets/icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
+    },
+    "android": {
+      "package": "com.captainnemo9292.drug_discovery",
+      "versionCode": 1
+    }
+  }
+}
