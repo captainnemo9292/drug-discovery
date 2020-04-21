@@ -5,9 +5,9 @@ Graph Neural Network based Generative Modeling for COVID-19 protease inhibitor D
 
 모바일 어플리케이션: (직접 해보세요!!!) https://github.com/captainnemo9292/drug-discovery/blob/master/drug-discovery.apk
 
-데모 영상: 
+데모 영상: https://www.youtube.com/watch?v=YxsAVJZWDzI
 
-모델 & 데이터셋: 
+모델 & 데이터셋: https://www.kaggle.com/captainnemo9292/covid19-protease-inhibitor-smiles-dataset
 
 안녕하세요 Github, 딥러닝에 관심있는 고등학생입니다. 전세계적으로 코로나바이러스가 확산됨에 따라 AI 커뮤니티에서도 컴퓨터 과학을 기반으로 이 위기를 해결하고자 하는 연구 활동이 활발하게 진행되고 있습니다. 이러한 코로나 퇴치를 위한 노력에 영감을 받아 저 또한 그래프 인공신경망과 Generative Modeling을 신약 후보 물질 개발에 적용하는 프로젝트를 실시하게 되었습니다. 다음은 GNN 기반 모델들을 기반으로 코로나 증식 효소 억제 물질 생성 및 ligand와 protein의 결합 가능성 예측에 도움을 주는 모바일 어플리케이션을 개발하는 토이프로젝트의 과정입니다. 한 번씩 봐주시면 감사하겠습니다.
 
