@@ -1,4 +1,4 @@
-# drug-discovery-generative-modeling
+# drug-discovery
 
 Graph Neural Network based Generative Modeling for COVID-19 protease inhibitor Drug Discovery 
 - by 류병우
