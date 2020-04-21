@@ -3,7 +3,7 @@
 Graph Neural Network based Generative Modeling for COVID-19 protease inhibitor Drug Discovery 
 - by 류병우
 
-모바일 어플리케이션: (직접 해보세요!!!) ./drug-discovery.apk
+모바일 어플리케이션: (직접 해보세요!!!) https://github.com/captainnemo9292/drug-discovery/blob/master/drug-discovery.apk./drug-discovery.apk
 
 데모 영상: 
 
